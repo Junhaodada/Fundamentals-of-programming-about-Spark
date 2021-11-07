@@ -1,0 +1,56 @@
+选择题：
+1)Scala程序编译后的文件以什么结尾：
+A、.class B、java C、.scala D、.sc
+A
+2)以下哪种Scala方法可以正确计算数组a的长度：
+A、count() B、take（1） C、tail(） D、length()
+D
+3)Scala中如何取出字符串str的后4个字符作为输出？
+A、str.get（str.length-5，str-1）B、str.tail（str.length-5，str.length-1）
+C、str.substring（str.length-4，str.length D、str.cat（str.length-5，str.length-1）
+C
+4)下面哪个方法不是用于创建RDD？
+A、makeRDD B、parallelize C、textFile D、saveAsTextFile
+D
+5)下面哪个不是RDD的特点：
+A、可分区 B、可序列化 C、可修改 D、可持久化
+C
+6)下面哪一组全部都是Spark的转换操作：
+A、map、take、reduceByKey
+B、map、filter、collect
+C、map、union、reduceByKey
+D、jion、map、take
+C
+7)Spark SQL可以处理的数据源包括：
+A、Hive表
+B、数据文件、Hive表
+C、数据文件、Hive表、RDD
+D、数据文件、Hive表、RDD、外部数据库
+D
+8)关于DataFrame的说法错误的是：
+A、DataFrame是由SchemaRDD发展而来
+B、DataFrame直接继承了RDD
+C、DataFrame实现了RDD的绝大多数功能
+D、DataFrame是一个分布式Row对象的数据集合
+B
+9)DataFrame的groupBy方法返回的结果是什么类型：
+A、DataFrame   B、Column   C、RDD   D、GroupedData
+D
+10)Spark Job 默认的调度模式 ( )
+A FIFO   B FAIR   C 无   D 运行时指定
+A
+11)DataFrame 和 RDD 最大的区别 ( )
+A.科学统计支持 B.多了 schema C.存储方式不一样 D.外部数据源支持
+B
+12)默认的存储级别 ( )
+A MEMORY_ONLY B MEMORY_ONLY_SER
+C MEMORY_AND_DISK D MEMORY_AND_DISK_SER
+A
+
+简答：
+1)对比Hadoop 框架和Spark框架，Spark 有哪些优势？
+2)什么是宽依赖，什么是窄依赖？哪些算子是宽依赖，哪些是窄依赖？
+3)简述spark的工作机制。
+4)简述RDD机制。
+5)spark的有几种部署模式？简述每种模式特点。
+6)简述spark的优势和劣势。
